@@ -317,7 +317,7 @@
                                                 <input type="text" name="nom" class="form-control" id="exampleInputUsername1" placeholder="nom">
                                             </div>
                                             <button type="submit" class="btn btn-primary mr-2">Submit</button>
-                                            <button class="btn btn-light">Cancel</button>
+                                            <a href="Categorie.jsp" class="btn btn-light">Cancel</button></a>
                                         </form>
                                     </div>
                                 </div>
@@ -348,7 +348,7 @@
                                                 </select>
                                             </div>
                                             <button type="submit" class="btn btn-primary mr-2">Submit</button>
-                                            <button class="btn btn-light">Cancel</button>
+                                            <a href="Categorie.jsp"class="btn btn-light">Cancel</button></a>
 
                                         </form>
                                     </div>
@@ -393,8 +393,8 @@
                                                      
                                                         <%}%>
                                                        <!-- <td><input type="reset" id="reset" value="reset" name="reset" class="btn btn-warning" /></td>-->
-                                                      <td><a href="../../../DeleteCategorieControlleur?id=<%=c.getId()%>">Cancel</a> </td>
-                                                      <td><a href="../../../UpdateCategorieControlleur?id=<%=c.getId()%>">Edit</a> </td>
+                                                      <td><a  class= "btn btn-danger " onclick="return confirm('Etes vous sur que vous voulez le supprimer ?')"  href="../../../DeleteCategorieControlleur?id=<%=c.getId()%>"> Cancel </button> </a></td>
+                                                    <!--  <td><a href="../../../UpdateCategorieControlleur?id=<%=c.getId()%>">Edit</a> </td>-->
                                                       </tr>
                                                    
                                                     <%}%>

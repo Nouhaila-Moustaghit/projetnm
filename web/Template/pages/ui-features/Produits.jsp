@@ -438,7 +438,7 @@
                                                         <td>
                                                             <%= p.getMarque().getNom()%>
                                                         </td>
-                                                       <td><a href="../../../DeleteProduitControlleur?id=<%=p.getId()%>"> Supprimer</a></td>
+                                                        <td><a  class= "btn btn-danger " onclick="return confirm('Etes vous sur que vous voulez le supprimer ?')"  href="../../../DeleteProduitControlleur?id=<%=p.getId()%> "> Supprimer </button> </a></td>
                                                     </tr>
                                                     <%}%>
 

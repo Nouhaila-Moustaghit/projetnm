@@ -314,7 +314,7 @@
                                                 <input type="text" name="nom" class="form-control" id="exampleInputUsername1" placeholder="nom">
                                             </div>
                                             <button type="submit" class="btn btn-primary mr-2">Submit</button>
-                                            <button class="btn btn-light">Cancel</button>
+                                            <a href="Marque.jsp" class="btn btn-light">Cancel</button></a>
                                         </form>
                                     </div>
                                 </div>
@@ -341,7 +341,7 @@
                                                     <tr>
                                                         <td><%= c.getNom()%></td>
                                                  
-                                                        <td><a href="../../../DeleteMarqueControlleur?id=<%=c.getId()%>"> Supprimer</a></td>
+                                                        <td><a  class= "btn btn-danger " onclick="return confirm('Etes vous sur que vous voulez le supprimer ?')"  href="../../../DeleteMarqueControlleur?id=<%=c.getId()%> "> Supprimer </button> </a></td>
                                                     </tr>
                                                 </tbody>
                                                 <%}%>
