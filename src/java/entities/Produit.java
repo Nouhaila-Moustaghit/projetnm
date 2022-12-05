@@ -13,6 +13,8 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.ManyToOne;
+import service.CategorieService;
+import service.ProduitService;
 
 /**
  *
@@ -119,5 +121,5 @@ public class Produit implements Serializable{
     }
     
     
-    
+        
 }

@@ -181,10 +181,7 @@
                                 </div>
                                 <a href="contact.jsp" class="nav-item nav-link">Contact</a>
                             </div>
-                            <div class="navbar-nav ml-auto py-0">
-                                <a href="" class="nav-item nav-link">Login</a>
-                                <a href="" class="nav-item nav-link">Register</a>
-                            </div>
+                           
                       
                         </div>
                     <!--  <div class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">

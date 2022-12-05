@@ -403,10 +403,10 @@
                                                             Unité
                                                         </th>
                                                         <th>
-                                                            Marque
+                                                            Catégorie
                                                         </th>
                                                         <th>
-                                                            Catégorie
+                                                           Marque
                                                         </th>
                                                         <th>
                                                             Supprimer

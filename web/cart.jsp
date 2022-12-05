@@ -96,6 +96,7 @@
                 </form>
             </div>
             <div class="col-lg-3 col-6 text-right">
+                
                 <a href="" class="btn border">
                     <i class="fas fa-heart text-primary"></i>
                     <span class="badge">0</span>
@@ -214,10 +215,7 @@
                             </div>
                             <a href="contact.jsp" class="nav-item nav-link">Contact</a>
                         </div>
-                        <div class="navbar-nav ml-auto py-0">
-                            <a href="" class="nav-item nav-link">Login</a>
-                            <a href="" class="nav-item nav-link">Register</a>
-                        </div>
+                       
                     </div>
                 </nav>
             </div>
